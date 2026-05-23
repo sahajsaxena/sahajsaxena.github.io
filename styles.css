@@ -121,8 +121,8 @@ a {
   margin-bottom: 20px;
   object-fit: cover;
   object-position: center top;
-  border-radius: 6px;
   background: #e8edf3;
+  border-radius: 6px;
 }
 
 h1,
@@ -341,16 +341,6 @@ li + li {
     margin-bottom: 0;
   }
 
-.portrait {
-  display: block;
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  margin-bottom: 20px;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 6px;
-}
-  
   .profile-links {
     grid-column: 1 / -1;
     grid-template-columns: repeat(4, minmax(0, 1fr));
