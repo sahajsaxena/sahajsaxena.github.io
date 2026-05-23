@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Control systems research visual</title>
+  <desc id="desc">An abstract diagram connecting control theory, cyber-physical systems, and biomedical engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e6fffb"/>
+      <stop offset="0.52" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#1d2433" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="1200" fill="url(#bg)"/>
+  <rect x="72" y="78" width="816" height="1044" rx="38" fill="#ffffff" opacity="0.74"/>
+
+  <g filter="url(#softShadow)">
+    <circle cx="480" cy="300" r="148" fill="#134e4a"/>
+    <text x="480" y="288" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="74" font-weight="700">SS</text>
+    <text x="480" y="346" text-anchor="middle" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="28" font-weight="700">CONTROL SYSTEMS</text>
+  </g>
+
+  <path d="M250 590 C350 488 610 488 710 590" fill="none" stroke="url(#line)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M250 720 C350 822 610 822 710 720" fill="none" stroke="url(#line)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M480 448 L480 862" fill="none" stroke="#94a3b8" stroke-width="10" stroke-linecap="round" stroke-dasharray="18 26"/>
+
+  <g font-family="Arial, sans-serif" font-weight="700">
+    <g>
+      <rect x="118" y="542" width="264" height="112" rx="18" fill="#f0fdfa" stroke="#5eead4" stroke-width="4"/>
+      <text x="250" y="588" text-anchor="middle" fill="#134e4a" font-size="30">Learning-Based</text>
+      <text x="250" y="626" text-anchor="middle" fill="#134e4a" font-size="30">Control</text>
+    </g>
+    <g>
+      <rect x="578" y="542" width="264" height="112" rx="18" fill="#fff7ed" stroke="#fdba74" stroke-width="4"/>
+      <text x="710" y="588" text-anchor="middle" fill="#9a3412" font-size="30">Biomedical</text>
+      <text x="710" y="626" text-anchor="middle" fill="#9a3412" font-size="30">Systems</text>
+    </g>
+    <g>
+      <rect x="118" y="796" width="264" height="112" rx="18" fill="#f8fafc" stroke="#94a3b8" stroke-width="4"/>
+      <text x="250" y="842" text-anchor="middle" fill="#334155" font-size="30">Power</text>
+      <text x="250" y="880" text-anchor="middle" fill="#334155" font-size="30">Systems</text>
+    </g>
+    <g>
+      <rect x="578" y="796" width="264" height="112" rx="18" fill="#f7fee7" stroke="#bef264" stroke-width="4"/>
+      <text x="710" y="842" text-anchor="middle" fill="#365314" font-size="30">Cyber-Physical</text>
+      <text x="710" y="880" text-anchor="middle" fill="#365314" font-size="30">Resilience</text>
+    </g>
+  </g>
+
+  <g fill="#0f766e">
+    <circle cx="250" cy="720" r="18"/>
+    <circle cx="710" cy="720" r="18"/>
+    <circle cx="480" cy="590" r="18"/>
+    <circle cx="480" cy="850" r="18"/>
+  </g>
+</svg>
